@@ -27,7 +27,7 @@ const App = () => {
   useEffect(() => {
     const fetchTasks = async () => {
       const {data} = await axios.get(
-        'https://jsonplaceholder.cypress.io/todos?_limit=15'
+        'https://jsonplaceholder.cypress.io/todos?_limit=5'
       )
       setTasks(data)
     }
