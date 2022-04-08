@@ -16,4 +16,6 @@
 .back-button-container{
     width: 30%;
     margin-top: 10px;
+    margin-right:0px;
+    margin-left: auto;
 }

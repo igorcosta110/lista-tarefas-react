@@ -8,5 +8,13 @@
     color: #444;
     font-weight: bold;
     cursor: pointer;
-    border: none;
+    border: 2px solid chartreuse;
+    transition: all .5s ease;
+    box-sizing: border-box;
+}
+
+.button:hover {
+    border: 2px solid #eee;
+    background: #444;
+    color: chartreuse;
 }
