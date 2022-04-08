@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import {v4 as uuidv4} from 'uuid'
 
+import Header from './components/Header/Header'
 import Tasks from './components/Tasks/Tasks'
 import AddTask from './components/AddTask/AddTask'
+
 import './App.css'
 
 const App = () => {
@@ -50,6 +52,7 @@ const App = () => {
   return (
     <>
       <div className="container">
+        <Header/>
         <AddTask handleTaskAddition={handleTaskAddition} />
         <Tasks
           tasks={tasks}
