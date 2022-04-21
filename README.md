@@ -35,4 +35,4 @@ npm start
 
 - Inicia a aplicação
 
-** Tem alguma sugestão de como melhorar o projeto? Eu adoraria saber! **
+**Tem alguma sugestão de como melhorar o projeto? Eu adoraria saber!**
