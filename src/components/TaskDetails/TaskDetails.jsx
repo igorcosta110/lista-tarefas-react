@@ -21,7 +21,7 @@ const TaskDetails = () => {
             <div className="task-details-container">
                 <h2>{params.taskTitle}</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero voluptates dignissimos delectus natus voluptatem accusamus inventore, eaque culpa, nulla ipsa a numquam? Nam, amet error eligendi cupiditate magni quisquam.
+                    Esta é uma descrição da tarefa que pode ser analisada, lida e editada pelo usuário do aplicativo.
                 </p>
             </div>
         </>
